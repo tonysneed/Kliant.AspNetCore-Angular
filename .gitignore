@@ -250,3 +250,39 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Coverage directories
+coverage
+report
+
+# Dependency directories
+node_modules
+bower_components
+jspm_packages
+
+# Build and package folders
+build
+dist
+packages
+.tmp
+
+# System folders
+.DS_Store
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# MS Office temporary files
+*.tmp
+~$*.doc*
+~$*.xls*
+*.xlk
+~$*.ppt*

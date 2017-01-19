@@ -1,0 +1,37 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Current File",
+            "type": "node",
+            "request": "launch",
+            "program": "${file}",
+            "stopOnEntry": false,
+            "args": [],
+            "cwd": "${workspaceRoot}/src",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "externalConsole": false,
+            "sourceMaps": true,
+            "outDir": "${workspaceRoot}/dist"
+        },
+        {
+        "name": "Debug Gulp Task",
+        "type": "node",
+        "request": "launch",
+        "program": "${workspaceRoot}/node_modules/gulp/bin/gulp.js",
+        "stopOnEntry": false,
+        "args": [
+            // Replace with name of gulp task to run
+            "compile"
+        ],
+        "cwd": "${workspaceRoot}"
+        }
+    ]
+}
