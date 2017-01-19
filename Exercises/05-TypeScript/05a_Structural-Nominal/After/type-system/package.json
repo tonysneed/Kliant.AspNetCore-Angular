@@ -1,0 +1,13 @@
+{
+  "name": "type-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-tslint": "^6.1.2",
+    "tslint": "^3.15.1",
+    "typescript": "^2.0.3"
+  }
+}
