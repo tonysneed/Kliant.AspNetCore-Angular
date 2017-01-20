@@ -1,0 +1,34 @@
+{
+  "name": "angular-scratch",
+  "description": "Plain vanilla TypeScript project for Visual Studio Code",
+  "version": "1.0.0",
+  "scripts": {
+    "init": "npm install",
+    "compile": "tsc -p src",
+    "start": "lite-server"
+  },
+  "repository": {},
+  "license": "MIT",
+  "dependencies": {
+    "@angular/common": "^2.4.4",
+    "@angular/compiler": "^2.4.4",
+    "@angular/core": "^2.4.4",
+    "@angular/forms": "^2.4.4",
+    "@angular/http": "^2.4.4",
+    "@angular/platform-browser": "^2.4.4",
+    "@angular/platform-browser-dynamic": "^2.4.4",
+    "@angular/router": "^3.4.4",
+    "@angular/upgrade": "^2.4.4",
+    "core-js": "^2.4.1",
+    "lodash": "^4.17.4",
+    "reflect-metadata": "^0.1.9",
+    "rxjs": "^5.0.3",
+    "systemjs": "^0.19.43",
+    "zone.js": "^0.7.6"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.50",
+    "gulp": "^3.9.1",
+    "lite-server": "^2.2.2"
+  }
+}
