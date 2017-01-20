@@ -1,0 +1,19 @@
+{
+  "name": "hello-yeoman-types-script",
+  "description": "Plain vanilla TypeScript project for Visual Studio Code",
+  "version": "1.0.0",
+  "scripts": {
+    "init": "npm install",
+    "compile": "tsc -p src",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.50"
+  }
+}
