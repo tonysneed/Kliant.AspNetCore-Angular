@@ -1,5 +1,19 @@
 # Full Stack Web Development with ASP.NET Core and Angular
 
+## Description
+
+In this intensive two-day workshop you'll get hands-on experience building a state-of-the-art 
+interactive web application written in Angular 2 that communicates with a RESTful backend web 
+service running on ASP.NET Core 1.
+
+This allows you to leverage your C# skills to build a cross-platform Web API that can run on Linux 
+inside a Docker container and deployed to Cloud services with a microservices architecture, 
+while taking advantage of a modern web stack with support for integrated configuration and dependency 
+injection systems. On the front end you'll use TypeScript to build a JavaScript using the latest 
+features of ECMAScript 2015, as well as proposed future features such as decorators and async/await, 
+while benefiting from static types, generics and interfaces to support features we've come to take 
+for granted as developers, such as real-time syntax checking, code refactoring and intellisense.
+
 ## Course Outline
 
 ### Day 1: Building a RESTful Web API with ASP.NET Core 1 in C#
