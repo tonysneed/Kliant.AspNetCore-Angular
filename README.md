@@ -111,6 +111,7 @@ would like to perform lab exercises after the class has concluded.*
 
 7. [Visual Studio Code](https://code.visualstudio.com/)
     - Install extensions: C#, TSLint, Angular 2 TypeScript Snippets (johnpapa)
+    - Sync TypeScript version: <http://bit.ly/vs-code-ts-version>
 
 8. Clone the [Setup Validation Repository](https://github.com/tonysneed/Setup.DotNetCore-EF-Angular)
     - For the .NET Core apps execute: `dotnet restore` followed by `dotnet run`
