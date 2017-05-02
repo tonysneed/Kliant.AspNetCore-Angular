@@ -7,15 +7,13 @@
     - Accept the suggested app name
 
     ```
+    npm install -g generator-tonysneed-hello-typescript
     yo tonysneed-hello-typescript
     ```
 
 2. Add Angular dependencies.
-    - Install NPM packages from the command line.
-
-    ```
-    npm install --save @angular/common @angular/compiler @angular/core @angular/forms @angular/http @angular/platform-browser @angular/platform-browser-dynamic @angular/router @angular/upgrade core-js reflect-metadata rxjs systemjs zone.js
-    ```
+    - COPY package.json from the After solution.
+    - Run: npm install
 
 3. Open the project in VS Code: `code .`
     - Open src/tsconfig.json
@@ -36,7 +34,8 @@
     ```
 
 4. Add the file systemjs.config.js to the src folder.
-    - Paste the following content:
+    - Paste the following content.
+    - COPY the file to the dist/app directory.
 
     ```js
     /**
@@ -88,7 +87,8 @@
     ```
 
 5. Add an app folder to src and create an index.html file there.
-    - Add the following content:
+    - Add the following content.
+    - COPY the file to dist/app folder.
 
     ```html
     <!DOCTYPE html>
@@ -134,6 +134,7 @@
     ```
 
 7. Add an app.component.html file to the app folder.
+    - COPY to the dist/app.
 
     ```html
     <h1>{{title}}</h1>
